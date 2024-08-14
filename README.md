@@ -5,4 +5,4 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Import-Module ExchangeOnlineManagement
 
-Connect-ExchangeOnline -UserPrincipalName <mail> -ShowProgress $true
+Connect-ExchangeOnline -UserPrincipalName domain.com -ShowProgress $true

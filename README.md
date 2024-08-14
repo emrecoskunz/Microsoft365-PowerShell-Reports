@@ -4,4 +4,4 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Import-Module ExchangeOnlineManagement
 
-Connect-ExchangeOnline -UserPrincipalName bt@ssansoyunlari.onmicrosoft.com -ShowProgress $true
+Connect-ExchangeOnline -UserPrincipalName -ShowProgress $true
